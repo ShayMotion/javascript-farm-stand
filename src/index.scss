@@ -1,0 +1,45 @@
+@import "/css/variables";
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Playfair Display", serif,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1 {
+  font-family: "Mansalva", cursive;
+  font-size: 2.7rem;
+  color: $smallText;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+  margin: 0px;
+  padding: 4px;
+}
+
+p {
+  font-family: "Big Shoulders Text", cursive;
+  font-size: 1.4rem;
+  margin: 0px;
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: black;
+}
