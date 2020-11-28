@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./App.scss";
-import axios from "axios";
 import { axiosWithAuth } from "./utils/axiosWithAuth";
 import { connect } from "react-redux";
 import { Route, Switch } from "react-router-dom";
